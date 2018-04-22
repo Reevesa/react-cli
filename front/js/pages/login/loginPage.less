@@ -1,0 +1,135 @@
+.login-page {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #051d23 url("../../../assets/imgs/login_bg.jpg") 0 0 no-repeat;
+    .form-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80%;
+      transform: translateY(-60px);
+      flex-direction: column;
+  
+      h1{
+        text-align: center;
+        color: rgba(255, 255, 255, .9);
+        padding-bottom: 20px;
+      }
+      .anticon{
+        color: rgba(0, 0, 0, .65)!important;
+      }
+      .form-title {
+        line-height: 40px;
+        height: 40px;
+        font-size: 18px;
+        text-align: center;
+        color: #adb7be;
+        visibility: hidden;
+      }
+      .form-bg {
+        background-color: #fff;
+        border-radius: 4px;
+        padding: 0 50px;
+        box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
+      }
+    }
+    .bg {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -999;
+  
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .ant-form-item-control {
+      .ant-input-affix-wrapper{
+        .ant-input{
+          border: none;
+          background-color: rgba(255, 255, 255, 0);
+          border-radius: 0;
+          height: 32px;
+          line-height: 32px;
+          border-bottom: 1px solid #eee;
+        }
+        .ant-input:focus{
+          box-shadow: none;
+        }
+      }
+    }
+    .ant-btn-primary, .ant-btn-primary:active, .ant-btn-primary.active{
+      margin: 10px 0;
+      height: 40px;
+      border-radius: 4px;
+      border:none;
+      font-size: 18px;
+      line-height: 40px;
+      box-shadow: 0 10px 20px rgba(26, 133, 239, .2);
+      color: #fff;
+      background-color: #11508e;
+      // font-weight: 500;
+    }
+    .has-error .ant-form-explain, .has-error .ant-form-split{
+      color: #f97f7f;
+    }
+    .ant-btn{
+      // border-radius: 0;
+      width: 100%;
+    }
+  }
+  
+  .login-footer {
+    position: fixed;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+    color: #696969;
+  }
+  .login-logo {
+    width: 100%;
+    height: 80px;
+    opacity: 0.9;
+    position: relative;
+  
+    img {
+      height: 40px;
+    }
+  }
+  .fixed-height {
+    height: 80px;
+    display: table;
+  }
+  .login-header-content {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 1180px;
+    margin: auto;
+  
+    h1 {
+      display: inline-block;
+      font-weight: normal;
+      font-style: normal;
+      margin-left: 20px ;
+    }
+  }
+  .login-title {
+    font-style: normal;
+    font-weight: normal;
+    width: 330px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .login-form-wrapper {
+    opacity: 0.8;
+    height: 80%;
+    margin: auto;
+  }
+  
+  

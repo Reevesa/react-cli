@@ -1,0 +1,95 @@
+.leftSider{
+    height:100vh;
+  }
+  .rightLayout{
+    height:100vh;
+    overflow-y: auto;
+  }
+  .ant-layout-sider .logo {
+      height: 32px;
+      margin: 16px;
+      margin-left: 24px;
+      overflow: hidden;
+      img{
+        height: 100%;
+      }
+  }
+  .ant-layout{
+    color: rgba(0, 0, 0, 0.85);
+  }
+  .ant-layout-header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px !important;
+      font-size: 16px;
+      // color: #fff;
+      // background: #454545 !important;
+      background: #fff;
+      color: #333;
+      .header-content {
+          flex-grow: 1;
+          text-align: center;
+      }
+      .login-box {
+          .logout-btn {
+              padding: 5px 15px;
+              font-size: 14px;
+              // color: #fff;
+              color: #333;
+              border: 1px solid #eee;
+              border-radius: 4px;
+              &:hover {
+                  color: #108ee9;
+                  border-color: #108ee9;
+              }
+          }
+      }
+  }
+  
+  .ant-layout-breadcrumb {
+    margin: 15px;
+  }
+  
+  .loginUserContainer{
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    .siderBtn{
+      height: 48px;
+      width: 100%;
+      display: inline-flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+      text-align: left;
+      background-color: #002140;
+      border-bottom: 1px solid #001529;
+      .name{
+        color: #999;
+        background-color: transparent;
+      }
+      a{
+        color: #999;
+      }
+    }
+    .siderUsername{
+      cursor: default;
+      // font-weight: bold;
+      // font-size: 16px;
+      margin-bottom: 10px;
+      background: transparent
+    }
+  }
+  .dropMenu {
+    a{
+      text-align: center;
+    }
+  }
+  .ant-layout-sider-trigger{
+    position: absolute !important;
+  }
+  
+  

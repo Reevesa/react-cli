@@ -1,0 +1,161 @@
+
+#app {
+  .maxTabs{
+    .ant-tabs{
+      .ant-tabs-tab{
+        margin-right: 0;
+        padding: 12px;
+        // font-size: 12px
+      }
+    }
+    .ant-tabs-info{
+      min-height: 600px;
+    }
+  }
+  .ant-card-body{
+    padding: 15px;
+  }
+  hr{
+    height: 1px;
+    background: #e8e8e8;
+    line-height: 1px;
+    padding: 0;
+    margin: 15px 0;
+    border:none;
+  }
+  //公用间距
+  .mt20{
+    margin-top: 20px;
+  }
+  .mt15{
+    margin-top: 15px;
+  }
+  .ml15{
+    margin-left: 15px;
+  }
+  .mb20{
+    margin-bottom: 20px;
+  }
+  .mb30{
+    margin-bottom: 30px;
+  }
+  .ml10 {
+    margin-left: 10px;
+  }
+  .mr10 {
+    margin-right: 10px;
+  }
+  .mr15 {
+    margin-right: 15px;
+  }
+  .mr20 {
+    margin-right: 20px;
+  }
+  .mt10 {
+    margin-top: 10px;
+  }
+  .mb10{
+    margin-bottom: 10px;
+  }
+  .mb15{
+    margin-bottom: 15px;
+  }
+  .mb30{
+    margin-bottom: 30px;
+  }
+  .mb50{
+    margin-bottom: 50px;
+  }
+  .bor-l,
+  .bor-t,
+  .bor-r,
+  .bor-b{
+    border-color:  #e8e8e8;
+    border-style: solid;
+  }
+  .bor-l{
+    border-width: 0 0 0 1px;
+  }
+  .bor-r{
+    border-width: 0 1px 0 0;
+  }
+  .bor-t{
+    border-width: 1px 0 0 0;
+  }
+  .bor-b{
+    border-width: 0 0 1px 0;
+  }
+  .bor-0{
+    border: none
+  }
+
+  //文字大小
+  .font12{
+    font-size: 12px !important;
+    td{
+      font-size: 12px !important;
+    }
+  }
+
+  //text-align
+  .center{
+    text-align: center;
+  }
+  //浮动
+  .fl{
+    float: left;
+  }
+  .fr{
+    float: right;
+  }
+  //显示隐藏
+  .show{
+    display: block;
+  }
+  .hide{
+    display: none
+  }
+  input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: transparent!important;
+    background-image: none;
+    color: transparent!important;
+    -webkit-text-fill-color: #000 !important; //这个私有属性是有效的 */
+    box-shadow: 0 0 0 1000px white inset !important;//用shadow覆盖google对默认填充input框自带的黄色背景
+  }
+  .lh32{
+    line-height: 32px;
+  }
+}
+
+//滚动条样式改动
+::-webkit-scrollbar
+{
+    width: 6px;
+    height: 6px;
+    background-color: #F9F9F9;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb  {
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.05);
+  background-color: #ccc;
+}
+.flexColumnContainer{
+  display: inline-flex !important;
+  flex-direction: column;
+  flex-grow: 1 !important;
+}
+
+
+#embedPop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+}
+
+// input, select选择框disabled时 加深字体颜色
+.ant-select-disabled, .ant-input-disabled {
+  color: rgba(0, 0, 0, 0.50)!important;
+}

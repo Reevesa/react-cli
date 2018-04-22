@@ -1,0 +1,84 @@
+.WK-footer.ant-layout-footer{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.WK-tabPane{
+  height: calc(~"100vh - 200px");
+  // height: 612px;
+  // height: 752px;
+  overflow-y:overlay;
+  overflow-y:auto;
+}
+.business-tabs{
+  .WK-tabPane{
+    height: calc(~"100vh - 100px");
+  }
+}
+#app{
+  .ant-collapse-content,
+  .ant-table{
+    font-size: 13px;
+  }
+  .business-tabs{
+    position: fixed;
+    left: 3%;
+    top: 3%;
+    height: calc(100vh - 3%);
+    width: 94%;
+  }
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    text-align: center
+  }
+  .detailTips{
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #666;
+    justify-content: center;
+    align-items: center;
+    i{
+      font-size: 18px;
+      margin-right: 5px;
+      color: orange;
+    }
+  }
+}
+.reportModal.ant-modal{
+  height: 80%;
+  padding-bottom: 0;
+}
+.reportModal .ant-modal-content{
+  height: 100%;
+  .ant-modal-body{
+    height: 100%;
+    overflow: scroll
+  }
+  ol, ul{
+    margin-bottom: 0;
+  }
+  p{
+    margin-bottom: 0;
+  }
+  i{
+    display: none
+  }
+  .ant-confirm-content{
+    margin-left: 0;
+  }
+}
+
+.detailSpin{
+  min-height: calc(~"100vh - 140px");
+}
+.businessSpin {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
