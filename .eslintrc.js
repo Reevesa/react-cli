@@ -9,6 +9,7 @@
  */
 // const dev = process.env.NODE_ENV == 'development';  //区分开发和生产配置
 // const dbg = dev ? 'off': ['error', 2];
+/*
 module.exports = {
   "extends": [
     "yylint",
@@ -50,8 +51,8 @@ module.exports = {
     "no-debugger"            : "off",   // 不能使用debugger
 
     // react自定义规则
-    "react/jsx-indent"      : [ 'error', 2 ],   // jsx缩进2个空格
-    "react/jsx-indent-props": [ 'error', 2 ],   // @fixable jsx 的 props 缩进必须为四个空格
+    "react/jsx-indent"      : [ 'error', 4 ],   // jsx缩进2个空格
+    "react/jsx-indent-props": [ 'error', 4 ],   // @fixable jsx 的 props 缩进必须为四个空格
     "react/jsx-no-duplicate-props":['warn', { ignoreCase: true }],  //检查属性名重名
     "complexity": ['error', 30], // 用来控制函数的复杂度，分支超过30时报错
     "no-extend-native": "off"  ,// 禁止扩展native对象
@@ -61,3 +62,4 @@ module.exports = {
   }
 };
 
+*/
